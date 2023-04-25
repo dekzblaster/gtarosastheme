@@ -14,7 +14,7 @@ unlink($_SESSION['user_id'].".".$ext);
 if(isset($_FILES['image']))
 {
 	if($_FILES['image']['size'] > ($max_image_size*8192)) { 
-		echo '<img id="avatar" src="themes/Obsidian/images/limit.png">';
+		echo '<img id="avatar" src="themes/gtarosastheme/images/limit.png">';
 	} else {
 	//echo "test";
  $tmp = $_FILES['image']['tmp_name'];
@@ -32,12 +32,12 @@ if(isset($_FILES['image']))
 
   if(move_uploaded_file($tmp,$path)) 
   {
-   echo "<img id='avatar'  src='themes/Obsidian/upload/".$path."?".time()."' />";
+   echo "<img id='avatar'  src='themes/gtarosastheme/upload/".$path."?".time()."' />";
   }
  } 
  else 
  {
-  echo '<img id="avatar" src="themes/Obsidian/images/error.png">';
+  echo '<img id="avatar" src="themes/gtarosastheme/images/error.png">';
  }
 	}
 }
