@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <favicon>themes/gtarosastheme/images/favicon.ico</favicon>
-  <loginbg>themes/gtarosastheme/images/bg.jpg</loginbg>
+  <loginbg>themes/gtarosastheme/images/bg.png</loginbg>
   <bgblur>0</bgblur>
   <logo>themes/gtarosastheme/images/logo.png</logo>
   <pace>default</pace>
